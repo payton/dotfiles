@@ -44,9 +44,14 @@ brew install hr
 brew install httpie
 brew install imagemagick --with-webp
 brew install jq
+brew install lazydocker
 brew install ripgrep
 brew install thefuck
 brew install tmux
+
+# Install Kotlin-related projects
+brew install gradle
+brew install maven
 
 # Remove outdated versions from the cellar.
 brew cleanup
