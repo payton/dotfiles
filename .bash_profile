@@ -1,3 +1,6 @@
+# Only load Liquid Prompt in interactive shells, not from a script or from scp
+[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
